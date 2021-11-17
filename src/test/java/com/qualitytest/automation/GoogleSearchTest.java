@@ -31,7 +31,7 @@ public class GoogleSearchTest {
 		
 		WebElement searchbox = driver.findElement(By.name("q"));
 		searchbox.clear();
-		searchbox.sendKeys("cafefefe");
+		searchbox.sendKeys("cafefefe the best");
 		searchbox.submit();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
